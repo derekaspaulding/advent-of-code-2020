@@ -16,7 +16,7 @@ fun main() {
     solve("Day 1", ::day1)
     solve("Day 2", ::day2)
     solve("Day 3", ::day3)
-    solve("Day4", ::day4)
+    solve("Day 4", ::day4)
     solve("Day 5", ::day5)
 
     solve("Day 7", ::day7)
