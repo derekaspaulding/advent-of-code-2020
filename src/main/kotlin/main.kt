@@ -4,6 +4,8 @@ import day3.main as day3
 import day4.main as day4
 import day5.main as day5
 
+import day7.main as day7
+
 fun solve(day: String, solver: () -> Unit) {
     println("🎄🎄 ${day.capitalize()} 🎄🎄")
     solver()
@@ -16,4 +18,6 @@ fun main() {
     solve("Day 3", ::day3)
     solve("Day4", ::day4)
     solve("Day 5", ::day5)
+
+    solve("Day 7", ::day7)
 }
